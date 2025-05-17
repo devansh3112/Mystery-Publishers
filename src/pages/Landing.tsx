@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -84,10 +83,9 @@ const Landing: React.FC = () => {
             
             <ScrollReveal animation="fade-in" delay={0.3} className="hidden md:block">
               <div className="relative">
-                <div className="absolute -z-10 top-0 right-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl"></div>
-                <div className="rounded-lg border border-border overflow-hidden shadow-lg">
+                <div className="rounded-lg overflow-hidden">
                   <img 
-                    src="/placeholder.svg" 
+                    src="/images/ChatGPT_Image_May_18__2025__01_26_27_AM-removebg-preview.png" 
                     alt="Manuscript editing platform"
                     className="w-full h-auto"
                     loading="lazy"
