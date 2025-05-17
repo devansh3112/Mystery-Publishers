@@ -90,6 +90,7 @@ const Landing: React.FC = () => {
                     src="/placeholder.svg"
                     alt="Manuscript editing platform"
                     className="w-full h-auto"
+                    loading="lazy"
                   />
                 </div>
                 <div className="absolute -bottom-6 -left-6 p-4 bg-white rounded-lg shadow-lg border border-border animate-float">
