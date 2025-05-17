@@ -1,3 +1,4 @@
+
 import React, { createContext, useContext, useState, ReactNode } from "react";
 
 export type UserRole = "writer" | "editor" | "publisher";
@@ -51,7 +52,7 @@ const demoUsers: Record<UserRole, User> = {
   }
 };
 
-export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState<User | null>(null);
 
   const login = async (email: string, password: string): Promise<void> => {
