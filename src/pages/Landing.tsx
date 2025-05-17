@@ -86,8 +86,8 @@ const Landing: React.FC = () => {
               <div className="relative">
                 <div className="absolute -z-10 top-0 right-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl"></div>
                 <div className="rounded-lg border border-border overflow-hidden shadow-lg">
-                  <img
-                    src="/placeholder.svg"
+                  <img 
+                    src="/placeholder.svg" 
                     alt="Manuscript editing platform"
                     className="w-full h-auto"
                     loading="lazy"
@@ -267,6 +267,7 @@ const Landing: React.FC = () => {
                     quote="Mystery Publishers streamlined my entire publishing process. I could track the progress of my manuscript and communicate directly with my editor."
                     author="Sarah Johnson"
                     role="Author"
+                    imageUrl="/images/testimonial-1.jpg"
                   />
                 </CarouselItem>
                 
@@ -275,6 +276,7 @@ const Landing: React.FC = () => {
                     quote="The platform makes it easy to manage multiple manuscripts simultaneously. The chapter-by-chapter workflow is particularly effective."
                     author="Michael Chen"
                     role="Senior Editor"
+                    imageUrl="/images/testimonial-2.jpg"
                   />
                 </CarouselItem>
                 
@@ -283,6 +285,7 @@ const Landing: React.FC = () => {
                     quote="As a publishing admin, I can easily assign editors, track progress, and manage the entire publication pipeline all in one place."
                     author="Rebecca Torres"
                     role="Publishing Manager"
+                    imageUrl="/images/testimonial-3.jpg"
                   />
                 </CarouselItem>
               </CarouselContent>

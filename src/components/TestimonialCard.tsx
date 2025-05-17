@@ -25,11 +25,13 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           <p className="italic text-lg mb-6">{quote}</p>
           
           <div className="mt-auto flex items-center">
-            <Avatar className="h-12 w-12 mr-4">
+            <Avatar className="h-12 w-12 mr-4 border-2 border-primary/10 shadow-sm">
               {imageUrl ? (
                 <AvatarImage src={imageUrl} alt={author} />
               ) : (
-                <AvatarFallback>{author.charAt(0)}</AvatarFallback>
+                <AvatarFallback className="bg-primary/5 text-primary">
+                  {author.charAt(0)}
+                </AvatarFallback>
               )}
             </Avatar>
             <div>
